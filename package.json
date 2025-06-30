@@ -1,0 +1,14 @@
+{
+  "name": "animedi-reminder-worker",
+  "private": true,
+  "version": "1.0.0",
+  "type": "commonjs",
+  "main": "send-reminder-push.cjs",
+  "scripts": {
+    "start": "node send-reminder-push.cjs"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.38.4",
+    "firebase-admin": "^13.4.0"
+  }
+}
